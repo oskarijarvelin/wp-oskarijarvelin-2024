@@ -57,13 +57,13 @@ if ( ! function_exists( 'twentytwentyfour_block_styles' ) ) :
 				.is-style-pill a,
 				.is-style-pill span:not([class], [data-rich-text-placeholder]) {
 					display: inline-block;
-					background-color: var(--wp--preset--color--base-2);
+					background-color: var(--wp--preset--color--light-2);
 					padding: 0.375rem 0.875rem;
 					border-radius: var(--wp--preset--spacing--20);
 				}
 
 				.is-style-pill a:hover {
-					background-color: var(--wp--preset--color--contrast-3);
+					background-color: var(--wp--preset--color--dark-3);
 				}',
 			)
 		);
@@ -114,7 +114,7 @@ if ( ! function_exists( 'twentytwentyfour_block_styles' ) ) :
 					content: '';
 					width: 1.5rem;
 					height: 3rem;
-					background: var(--wp--preset--color--contrast-2, currentColor);
+					background: var(--wp--preset--color--dark, currentColor);
 					clip-path: path('M11.93.684v8.039l5.633-5.633 1.216 1.23-5.66 5.66h8.04v1.737H13.2l5.701 5.701-1.23 1.23-5.742-5.742V21h-1.737v-8.094l-5.77 5.77-1.23-1.217 5.743-5.742H.842V9.98h8.162l-5.701-5.7 1.23-1.231 5.66 5.66V.684h1.737Z');
 					display: block;
 				}
