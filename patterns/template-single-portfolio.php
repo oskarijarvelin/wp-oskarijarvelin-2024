@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Portfolio single post template
- * Slug: twentytwentyfour/template-single-portfolio
+ * Slug: oj24/template-single-portfolio
  * Template Types: posts, single
  * Viewport width: 1400
  * Inserter: no
@@ -13,7 +13,7 @@
 <!-- wp:group {"tagName":"main","align":"full","layout":{"type":"constrained"}} -->
 <main class="wp-block-group alignfull">
 	<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
-	<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer">
+	<div style="height:var(--wp--preset--spacing--4)" aria-hidden="true" class="wp-block-spacer">
 	</div>
 	<!-- /wp:spacer -->
 
@@ -26,7 +26,7 @@
 	<!-- /wp:group -->
 
 	<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
-	<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer">
+	<div style="height:var(--wp--preset--spacing--4)" aria-hidden="true" class="wp-block-spacer">
 	</div>
 	<!-- /wp:spacer -->
 

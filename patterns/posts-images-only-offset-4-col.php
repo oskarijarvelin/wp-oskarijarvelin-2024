@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Offset posts with featured images only, 4 columns
- * Slug: twentytwentyfour/posts-images-only-offset-4-col
+ * Slug: oj24/posts-images-only-offset-4-col
  * Categories: posts
  */
 ?>
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--5);padding-right:var(--wp--preset--spacing--5);padding-bottom:var(--wp--preset--spacing--5);padding-left:var(--wp--preset--spacing--5)">
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"0","left":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}}} -->
 	<div class="wp-block-columns alignwide" style="margin-top:0;margin-bottom:0">
 		<!-- wp:column {"style":{"spacing":{"blockGap":"0"}}} -->
@@ -25,7 +25,7 @@
 		<!-- wp:column {"style":{"spacing":{"blockGap":"0","padding":{"top":"0"}}}} -->
 		<div class="wp-block-column" style="padding-top:0">
 			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
-			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer">
+			<div style="height:var(--wp--preset--spacing--5)" aria-hidden="true" class="wp-block-spacer">
 			</div>
 			<!-- /wp:spacer -->
 
@@ -38,7 +38,7 @@
 			<!-- /wp:query -->
 
 			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
-			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer">
+			<div style="height:var(--wp--preset--spacing--5)" aria-hidden="true" class="wp-block-spacer">
 			</div>
 			<!-- /wp:spacer -->
 		</div>
@@ -59,7 +59,7 @@
 		<!-- wp:column {"style":{"spacing":{"blockGap":"0","padding":{"top":"0"}}}} -->
 		<div class="wp-block-column" style="padding-top:0">
 			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
-			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer">
+			<div style="height:var(--wp--preset--spacing--5)" aria-hidden="true" class="wp-block-spacer">
 			</div>
 			<!-- /wp:spacer -->
 
@@ -72,7 +72,7 @@
 			<!-- /wp:query -->
 
 			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
-			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer">
+			<div style="height:var(--wp--preset--spacing--5)" aria-hidden="true" class="wp-block-spacer">
 			</div>
 			<!-- /wp:spacer -->
 		</div>

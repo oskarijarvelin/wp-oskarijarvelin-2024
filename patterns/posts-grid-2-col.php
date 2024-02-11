@@ -1,20 +1,20 @@
 <?php
 /**
  * Title: Grid of posts featuring the first post, 2 columns
- * Slug: twentytwentyfour/posts-grid-2-col
+ * Slug: oj24/posts-grid-2-col
  * Categories: query
  * Block Types: core/query
  */
 ?>
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
+<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--5);padding-right:var(--wp--preset--spacing--5);padding-bottom:var(--wp--preset--spacing--5);padding-left:var(--wp--preset--spacing--5)">
 	<!-- wp:heading {"align":"wide","style":{"typography":{"lineHeight":"1"},"spacing":{"margin":{"top":"0"}}},"fontSize":"x-large"} -->
-	<h2 class="wp-block-heading alignwide has-x-large-font-size" style="margin-top:0;line-height:1"><?php esc_html_e( 'Watch, Read, Listen', 'twentytwentyfour' ); ?></h2>
+	<h2 class="wp-block-heading alignwide has-x-large-font-size" style="margin-top:0;line-height:1"><?php esc_html_e( 'Watch, Read, Listen', 'oj24' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:spacer {"height":"var:preset|spacing|10","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-	<div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer">
+	<div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--1)" aria-hidden="true" class="wp-block-spacer">
 	</div>
 	<!-- /wp:spacer -->
 
@@ -28,7 +28,7 @@
 				<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/4"} /-->
 
 				<!-- wp:spacer {"height":"var:preset|spacing|10"} -->
-				<div style="height:var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer">
+				<div style="height:var(--wp--preset--spacing--1)" aria-hidden="true" class="wp-block-spacer">
 				</div>
 				<!-- /wp:spacer -->
 

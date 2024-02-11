@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Portfolio search template
- * Slug: twentytwentyfour/template-search-portfolio
+ * Slug: oj24/template-search-portfolio
  * Template Types: search
  * Viewport width: 1400
  * Inserter: no
@@ -16,11 +16,11 @@
 
 	<!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"840px","justifyContent":"left"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:pattern {"slug":"twentytwentyfour/hidden-search"} /-->
+		<!-- wp:pattern {"slug":"oj24/hidden-search"} /-->
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:pattern {"slug":"twentytwentyfour/posts-images-only-3-col"} /-->
+	<!-- wp:pattern {"slug":"oj24/posts-images-only-3-col"} /-->
 </main>
 <!-- /wp:group -->
 

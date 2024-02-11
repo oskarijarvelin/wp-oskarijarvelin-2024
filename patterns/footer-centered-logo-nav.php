@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Footer with centered logo and navigation
- * Slug: twentytwentyfour/footer-centered-logo-nav
+ * Slug: oj24/footer-centered-logo-nav
  * Categories: footer
  * Block Types: core/template-part/footer
  */
 ?>
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|50"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50)">
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--4);padding-bottom:var(--wp--preset--spacing--5)">
 
 	<!-- wp:site-logo /-->
 
@@ -18,10 +18,10 @@
 	<p class="has-text-align-center has-secondary-color has-text-color has-link-color has-small-font-size">
 	<?php
 	/* Translators: WordPress link. */
-		$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfour' ) ) . '" rel="nofollow">WordPress</a>';
+		$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'oj24' ) ) . '" rel="nofollow">WordPress</a>';
 		echo sprintf(
 			/* Translators: Designed with WordPress */
-			esc_html__( 'Designed with %1$s', 'twentytwentyfour' ),
+			esc_html__( 'Designed with %1$s', 'oj24' ),
 			$wordpress_link
 		);
 		?>

@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Portfolio hero
- * Slug: twentytwentyfour/hidden-portfolio-hero
+ * Slug: oj24/hidden-portfolio-hero
  * Inserter: no
  */
 ?>
 
 <!-- wp:spacer {"height":"var:preset|spacing|50","style":{"layout":{}}} -->
-<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
+<div style="height:var(--wp--preset--spacing--5)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
 <!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
