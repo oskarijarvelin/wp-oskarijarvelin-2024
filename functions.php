@@ -20,7 +20,6 @@ if ( ! function_exists( 'oj24_block_styles' ) ) :
 	 * @return void
 	 */
 	function oj24_block_styles() {
-
 		register_block_style(
 			'core/details',
 			array(

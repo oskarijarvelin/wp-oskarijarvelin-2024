@@ -250,11 +250,11 @@
 				},
 				{
 					"fluid": {
-						"min": "1.3rem",
+						"min": "1.2rem",
 						"max": "1.6rem"
 					},
 					"name": "Large",
-					"size": "1.45rem",
+					"size": "1.4rem",
 					"slug": "large"
 				},
 				{
@@ -282,6 +282,12 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/media-text": {
+				"spacing": {
+					"blockGap": "1.5rem"
+				},
+				"css": "& { gap: var(--wp--preset--spacing--3); } & .wp-block-media-text__content { padding: 0; }"
+			},
 			"core/avatar": {
 				"border": {
 					"radius": "90px"
@@ -872,6 +878,12 @@
 					"fontFamily": "var(--wp--preset--font-family--heading)",
 					"fontWeight": "400",
 					"lineHeight": "1.2"
+				},
+				"spacing": {
+					"margin": {
+						"top": "var(--wp--preset--spacing--4)",
+						"bottom": "var(--wp--preset--spacing--1)"
+					}
 				}
 			},
 			"link": {
