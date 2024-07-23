@@ -1,0 +1,13 @@
+{
+    "name": "acf/patch",
+    "title": "Patch",
+    "description": "Patch-table for Patch CPT",
+    "category": "theme",
+    "icon": "excerpt-view",
+    "keywords": ["patch", "theme"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "patch.php",
+        "validate": "false"
+    }
+}
