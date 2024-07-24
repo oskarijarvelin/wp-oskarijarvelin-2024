@@ -266,7 +266,7 @@ function create_child_fixtures_from_modes( $post_id, $post ) {
 			$child_post_id = wp_insert_post($child_post);
 			if ($child_post_id) {
 				wp_set_post_terms( $child_post_id, $parent_manufacturer, 'manufacturer' );
-				//update_field('fixture', $parent_name, $child_post_id); TODO: fix this
+				update_field('fixture', $parent_name, $child_post_id);
 				update_field('mode', $mode['name'], $child_post_id);
 				update_field('channels', $mode['channels'], $child_post_id);
 			}
